@@ -21,7 +21,11 @@
                 return num + " is zero.";
             }
         }
-
+    function performCheck() {
+            const num = document.getElementById('numberInput').value;
+            const result = checkNumber(Number(num));
+            document.getElementById('result').textContent = result;
+        }
        
     </script>
 </body>
